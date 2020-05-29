@@ -1,0 +1,44 @@
+{
+  "name": "vuejs-fragment",
+  "version": "1.0.0",
+  "description": "fragment component for vuejs",
+  "main": "dist/vue-fragment.min.js",
+  "module": "dist/vue-fragment.esm.js",
+  "types": "types.d.ts",
+  "global": "Fragment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./rollup.build.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angusyang9/vuejs-fragment.git"
+  },
+  "keywords": [
+    "vuejs",
+    "fragment",
+    "component"
+  ],
+  "author": "Julien Barbay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angusyang9/vuejs-fragment/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  },
+  "files": [
+    "*.md",
+    "**/*.js",
+    "**/*.d.ts"
+  ],
+  "homepage": "https://github.com/angus/vuejs-fragment#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.60.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-minify-es": "^1.1.1"
+  }
+}
