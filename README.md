@@ -27,12 +27,12 @@ npm i vuejs-fragment -S
 - Plugin:
 
 ```vue
-import Fragment from 'vue-fragment'
+import Fragment from 'vuejs-fragment'
 Vue.use(Fragment.Plugin)
 
 // or
 
-import { Plugin } from 'vue-fragment'
+import { Plugin } from 'vuejs-fragment'
 Vue.use(Plugin)
 
 // …
@@ -51,7 +51,7 @@ export const MyComponent {
 - Component:
 
 ```vue
-import { Fragment } from 'vue-fragment'
+import { Fragment } from 'vuejs-fragment'
 
 export const MyComponent {
   components: { Fragment },
