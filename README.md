@@ -25,40 +25,42 @@ npm i vuejs-fragment -S
 ### 二、使用
 
 - Plugin:
-    ```vue
-    import Fragment from 'vue-fragment'
-    Vue.use(Fragment.Plugin)
 
-    // or
+```vue
+import Fragment from 'vue-fragment'
+Vue.use(Fragment.Plugin)
 
-    import { Plugin } from 'vue-fragment'
-    Vue.use(Plugin)
+// or
 
-    // …
+import { Plugin } from 'vue-fragment'
+Vue.use(Plugin)
 
-    export const MyComponent {
-      template: '
-      <fragment>
-        <input type="text" v-model="message">
-        <span>{{ message }}</span>
-      </fragment>
-      ',
-      data() { return { message: 'hello world }}
-    }
-    ```
+// …
+
+export const MyComponent {
+  template: '
+  <fragment>
+    <input type="text" v-model="message">
+    <span>{{ message }}</span>
+  </fragment>
+  ',
+  data() { return { message: 'hello world }}
+}
+```
 
 - Component:
-    ```vue
-    import { Fragment } from 'vue-fragment'
 
-    export const MyComponent {
-      components: { Fragment },
-      template: '
-      <fragment>
-        <input type="text" v-model="message">
-        <span>{{ message }}</span>
-      </fragment>
-      ',
-      data() { return { message: 'hello world }}
-    }
-    ```
+```vue
+import { Fragment } from 'vue-fragment'
+
+export const MyComponent {
+  components: { Fragment },
+  template: '
+  <fragment>
+    <input type="text" v-model="message">
+    <span>{{ message }}</span>
+  </fragment>
+  ',
+  data() { return { message: 'hello world }}
+}
+```
