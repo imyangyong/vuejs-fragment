@@ -1,7 +1,7 @@
 <h3 align="center" style="margin: 30px 0 35px;">vuejs-fragment</h3>
 <p align="center">
   <a href="https://www.npmjs.com/package/vuejs-fragment"><img alt="npm" src="https://img.shields.io/npm/v/vuejs-fragment"></a>
-  <a href="https://travis-ci.org/AngusYang9/vuejs-fragment"><img src="https://travis-ci.org/AngusYang9/vuejs-fragment.svg?branch=master" /></a>
+  <a href="https://travis-ci.org/AngusYang9/vuejs-fragment"><img src="https://img.shields.io/travis/AngusYang9/vuejs-fragment.svg" /></a>
 </p>
 
 ---
